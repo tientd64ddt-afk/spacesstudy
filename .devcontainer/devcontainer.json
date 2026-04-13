@@ -1,0 +1,13 @@
+{
+  "name": "Linux Learning",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt update && sudo apt install -y curl wget git python3 python3-pip",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}
